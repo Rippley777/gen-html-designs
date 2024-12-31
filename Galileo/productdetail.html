@@ -1,0 +1,726 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#111418] dark group/design-root overflow-x-hidden"
+      style="font-family: Inter, 'Noto Sans', sans-serif"
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header
+          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#293038] px-10 py-3"
+        >
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2
+              class="text-white text-lg font-bold leading-tight tracking-[-0.015em]"
+            >
+              Auctio
+            </h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Home</a
+              >
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Explore</a
+              >
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Create</a
+              >
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Activity</a
+              >
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#293038] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div
+                  class="text-white"
+                  data-icon="MagnifyingGlass"
+                  data-size="20px"
+                  data-weight="regular"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#293038] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div
+                  class="text-white"
+                  data-icon="Bookmark"
+                  data-size="20px"
+                  data-weight="regular"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#293038] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div
+                  class="text-white"
+                  data-icon="List"
+                  data-size="20px"
+                  data-weight="regular"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style="
+                background-image: url('https://cdn.usegalileo.ai/sdxl10/b105e251-6b00-4590-9022-bfb4411ac170.png');
+              "
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div
+            class="layout-content-container flex flex-col max-w-[920px] flex-1"
+          >
+            <h3
+              class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4"
+            >
+              Clothing &amp; Accessories
+            </h3>
+            <div class="flex flex-wrap gap-2 p-4">
+              <a
+                class="text-[#9dabb8] text-base font-medium leading-normal"
+                href="#"
+                >Women's Clothing</a
+              >
+              <span class="text-[#9dabb8] text-base font-medium leading-normal"
+                >/</span
+              >
+              <span class="text-white text-base font-medium leading-normal"
+                >Dresses</span
+              >
+            </div>
+            <div class="@container">
+              <div
+                class="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row"
+              >
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/79cf5f18-793f-4486-a210-1b407dbd3bca.png');
+                  "
+                ></div>
+                <div
+                  class="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center"
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Red Satin Mini Dress
+                    </h1>
+                    <h2
+                      class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
+                    >
+                      $125
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#1980e6] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Add to Bag</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4"
+            >
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/replicate/2317c48c-ed0c-47e1-9eda-a69367de4444.png');
+                  "
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/replicate/390d429a-94a7-4892-be06-c9f9a90380b4.png');
+                  "
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/d5b3efbc-02b3-417b-bb3f-ffd37b4dbdf0.png');
+                  "
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/replicate/2317c48c-ed0c-47e1-9eda-a69367de4444.png');
+                  "
+                ></div>
+              </div>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Description
+            </h2>
+            <p
+              class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4"
+            >
+              Gorgeous red satin mini dress with a high neckline and open back
+              detail. Perfect for a night out or special occasion. Size small,
+              brand new with tags. Retails for $150.
+            </p>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Seller
+            </h2>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2"
+            >
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+                style="
+                  background-image: url('https://cdn.usegalileo.ai/sdxl10/014920d7-e0b4-4ffa-823a-811dd0d3cdbc.png');
+                "
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-white text-base font-medium leading-normal line-clamp-1"
+                >
+                  Satin Dreams
+                </p>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  5 star average
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-stretch">
+              <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 justify-start">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-transparent text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Ask a question</span>
+                </button>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#293038] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Make an offer</span>
+                </button>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1980e6] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Buy now</span>
+                </button>
+              </div>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Details
+            </h2>
+            <div class="p-4 grid grid-cols-2">
+              <div
+                class="flex flex-col gap-1 border-t border-solid border-t-[#3c4753] py-4 pr-2"
+              >
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                  Size
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">S</p>
+              </div>
+              <div
+                class="flex flex-col gap-1 border-t border-solid border-t-[#3c4753] py-4 pl-2"
+              >
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                  Condition
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">
+                  New with tags
+                </p>
+              </div>
+              <div
+                class="flex flex-col gap-1 border-t border-solid border-t-[#3c4753] py-4 pr-2"
+              >
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                  Brand
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">
+                  Chic Boutique
+                </p>
+              </div>
+              <div
+                class="flex flex-col gap-1 border-t border-solid border-t-[#3c4753] py-4 pl-2"
+              >
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                  Color
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">Red</p>
+              </div>
+              <div
+                class="flex flex-col gap-1 border-t border-solid border-t-[#3c4753] py-4 pr-2 col-span-2 pr-[50%]"
+              >
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                  Shipping
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">
+                  Free
+                </p>
+              </div>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Reviews
+            </h2>
+            <div class="flex flex-wrap gap-x-8 gap-y-6 p-4">
+              <div class="flex flex-col gap-2">
+                <p
+                  class="text-white text-4xl font-black leading-tight tracking-[-0.033em]"
+                >
+                  5
+                </p>
+                <div class="flex gap-0.5">
+                  <div
+                    class="text-white"
+                    data-icon="Star"
+                    data-size="18px"
+                    data-weight="fill"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18px"
+                      height="18px"
+                      fill="currentColor"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div
+                    class="text-white"
+                    data-icon="Star"
+                    data-size="18px"
+                    data-weight="fill"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18px"
+                      height="18px"
+                      fill="currentColor"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div
+                    class="text-white"
+                    data-icon="Star"
+                    data-size="18px"
+                    data-weight="fill"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18px"
+                      height="18px"
+                      fill="currentColor"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div
+                    class="text-white"
+                    data-icon="Star"
+                    data-size="18px"
+                    data-weight="fill"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18px"
+                      height="18px"
+                      fill="currentColor"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div
+                    class="text-white"
+                    data-icon="Star"
+                    data-size="18px"
+                    data-weight="regular"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18px"
+                      height="18px"
+                      fill="currentColor"
+                      viewBox="0 0 256 256"
+                    >
+                      <path
+                        d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <p class="text-white text-base font-normal leading-normal">
+                  9 reviews
+                </p>
+              </div>
+              <div
+                class="grid min-w-[200px] max-w-[400px] flex-1 grid-cols-[20px_1fr_40px] items-center gap-y-3"
+              >
+                <p class="text-white text-sm font-normal leading-normal">5</p>
+                <div
+                  class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#3c4753]"
+                >
+                  <div class="rounded-full bg-white" style="width: 100%"></div>
+                </div>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal text-right"
+                >
+                  100%
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">4</p>
+                <div
+                  class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#3c4753]"
+                >
+                  <div class="rounded-full bg-white" style="width: 0%"></div>
+                </div>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal text-right"
+                >
+                  0%
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">3</p>
+                <div
+                  class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#3c4753]"
+                >
+                  <div class="rounded-full bg-white" style="width: 0%"></div>
+                </div>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal text-right"
+                >
+                  0%
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">2</p>
+                <div
+                  class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#3c4753]"
+                >
+                  <div class="rounded-full bg-white" style="width: 0%"></div>
+                </div>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal text-right"
+                >
+                  0%
+                </p>
+                <p class="text-white text-sm font-normal leading-normal">1</p>
+                <div
+                  class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#3c4753]"
+                >
+                  <div class="rounded-full bg-white" style="width: 0%"></div>
+                </div>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal text-right"
+                >
+                  0%
+                </p>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-transparent text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">See all reviews</span>
+              </button>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col w-[360px]">
+            <div class="flex p-4 @container">
+              <div class="flex w-full flex-col gap-4 items-center">
+                <div class="flex gap-4 flex-col items-center">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                    style="
+                      background-image: url('https://cdn.usegalileo.ai/sdxl10/edf0a0c1-2b3a-401d-9770-e6ba7a658817.png');
+                    "
+                  ></div>
+                  <div
+                    class="flex flex-col items-center justify-center justify-center"
+                  >
+                    <p
+                      class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] text-center"
+                    >
+                      Satin Dreams
+                    </p>
+                    <p
+                      class="text-[#9dabb8] text-base font-normal leading-normal text-center"
+                    >
+                      5 star average
+                    </p>
+                    <p
+                      class="text-[#9dabb8] text-base font-normal leading-normal text-center"
+                    >
+                      5.0 (9 reviews)
+                    </p>
+                  </div>
+                </div>
+                <div class="flex w-full max-w-[480px] gap-3 @[480px]:w-auto">
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#293038] text-white text-sm font-bold leading-normal tracking-[0.015em] flex-1 @[480px]:flex-auto"
+                  >
+                    <span class="truncate">Follow</span>
+                  </button>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1980e6] text-white text-sm font-bold leading-normal tracking-[0.015em] flex-1 @[480px]:flex-auto"
+                  >
+                    <span class="truncate">Share</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-4 p-4">
+              <div
+                class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 border border-[#3c4753]"
+              >
+                <p class="text-white text-base font-medium leading-normal">
+                  Listings
+                </p>
+                <p
+                  class="text-white tracking-light text-2xl font-bold leading-tight"
+                >
+                  43
+                </p>
+              </div>
+              <div
+                class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 border border-[#3c4753]"
+              >
+                <p class="text-white text-base font-medium leading-normal">
+                  Sales
+                </p>
+                <p
+                  class="text-white tracking-light text-2xl font-bold leading-tight"
+                >
+                  22
+                </p>
+              </div>
+              <div
+                class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 border border-[#3c4753]"
+              >
+                <p class="text-white text-base font-medium leading-normal">
+                  Following
+                </p>
+                <p
+                  class="text-white tracking-light text-2xl font-bold leading-tight"
+                >
+                  21
+                </p>
+              </div>
+            </div>
+            <div class="p-4">
+              <div
+                class="flex items-stretch justify-between gap-4 rounded-xl bg-[#1c2126] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]"
+              >
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    Just sold
+                  </p>
+                  <p class="text-white text-base font-bold leading-tight">
+                    White Linen Dress
+                  </p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    $35 • 5 days ago
+                  </p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/10a89c4b-146c-454f-910e-b076b0bbcb67.png');
+                  "
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div
+                class="flex items-stretch justify-between gap-4 rounded-xl bg-[#1c2126] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]"
+              >
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    Just sold
+                  </p>
+                  <p class="text-white text-base font-bold leading-tight">
+                    Black Leather Tote
+                  </p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    $85 • 7 days ago
+                  </p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/f2c297f5-ee55-4083-8f8b-d41500a5512f.png');
+                  "
+                ></div>
+              </div>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Related items
+            </h2>
+            <div class="p-4">
+              <div
+                class="flex items-stretch justify-between gap-4 rounded-xl bg-[#1c2126] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]"
+              >
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    New
+                  </p>
+                  <p class="text-white text-base font-bold leading-tight">
+                    Black Lace Slip Dress
+                  </p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    $100
+                  </p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/replicate/bc5dc04b-0662-4f8a-901e-f378b39fa4ce.png');
+                  "
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div
+                class="flex items-stretch justify-between gap-4 rounded-xl bg-[#1c2126] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]"
+              >
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    New
+                  </p>
+                  <p class="text-white text-base font-bold leading-tight">
+                    Silk Robe
+                  </p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    $75
+                  </p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/fa8efa6a-606d-4005-a14f-a19a1bd2ba12.png');
+                  "
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div
+                class="flex items-stretch justify-between gap-4 rounded-xl bg-[#1c2126] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]"
+              >
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    New
+                  </p>
+                  <p class="text-white text-base font-bold leading-tight">
+                    Gold Hoop Earrings
+                  </p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">
+                    $20
+                  </p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/2568a3fa-05c2-4e6f-82ed-d3c6fb242f8e.png');
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

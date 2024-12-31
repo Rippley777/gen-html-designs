@@ -1,0 +1,324 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#111418] dark group/design-root overflow-x-hidden"
+      style="font-family: Inter, 'Noto Sans', sans-serif"
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header
+          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#293038] px-10 py-3"
+        >
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2
+              class="text-white text-lg font-bold leading-tight tracking-[-0.015em]"
+            >
+              Acme
+            </h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Home</a
+              >
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Solutions</a
+              >
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Pricing</a
+              >
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Resources</a
+              >
+              <a class="text-white text-sm font-medium leading-normal" href="#"
+                >Company</a
+              >
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#378fe6] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Sign up</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#293038] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Log in</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div
+            class="layout-content-container flex flex-col max-w-[960px] flex-1"
+          >
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p
+                class="text-white text-4xl font-black leading-tight tracking-[-0.033em] min-w-72"
+              >
+                Settings
+              </p>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Profile
+            </h2>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2 justify-between"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-white text-base font-medium leading-normal line-clamp-1"
+                >
+                  Name
+                </p>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  This is the name people will see on your profile.
+                </p>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Edit</span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2 justify-between"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-white text-base font-medium leading-normal line-clamp-1"
+                >
+                  Username
+                </p>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  Your username is unique to you and can only be used once.
+                </p>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Edit</span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-14 justify-between"
+            >
+              <p
+                class="text-white text-base font-normal leading-normal flex-1 truncate"
+              >
+                Bio
+              </p>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Add</span>
+                </button>
+              </div>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Account
+            </h2>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2 justify-between"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-white text-base font-medium leading-normal line-clamp-1"
+                >
+                  Email
+                </p>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  You can use any email address. You'll need to verify it before
+                  you can use it.
+                </p>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Change</span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-14 justify-between"
+            >
+              <p
+                class="text-white text-base font-normal leading-normal flex-1 truncate"
+              >
+                Password
+              </p>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Change</span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-14 justify-between"
+            >
+              <p
+                class="text-white text-base font-normal leading-normal flex-1 truncate"
+              >
+                Phone number
+              </p>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Add</span>
+                </button>
+              </div>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Privacy
+            </h2>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-14 justify-between"
+            >
+              <p
+                class="text-white text-base font-normal leading-normal flex-1 truncate"
+              >
+                Profile visibility
+              </p>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Public</span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-14 justify-between"
+            >
+              <p
+                class="text-white text-base font-normal leading-normal flex-1 truncate"
+              >
+                Messaging preference
+              </p>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Anyone</span>
+                </button>
+              </div>
+            </div>
+            <h2
+              class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Appearance
+            </h2>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2 justify-between"
+            >
+              <div class="flex flex-col justify-center">
+                <p
+                  class="text-white text-base font-medium leading-normal line-clamp-1"
+                >
+                  Theme
+                </p>
+                <p
+                  class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2"
+                >
+                  System theme
+                </p>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">System</span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-14 justify-between"
+            >
+              <p
+                class="text-white text-base font-normal leading-normal flex-1 truncate"
+              >
+                Accent color
+              </p>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">Blue</span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 bg-[#111418] px-4 min-h-14 justify-between"
+            >
+              <p
+                class="text-white text-base font-normal leading-normal flex-1 truncate"
+              >
+                Language
+              </p>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">English</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#378fe6] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Save</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
